@@ -1,0 +1,32 @@
+._*
+.git
+.idea
+.idea/*
+.phpintel
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+backup/*.sql
+composer.lock
+build
+build/*
+backup/*
+public/index.php
+public/index.html
+# 關閉 Resources Files
+public/resources/*
+# 關閉 Storage Files
+public/storage/*
+!public/storage/index.html
+# 關閉 Vendor Files
+back-end/vendor
+back-end/vendor/*
+# 關閉 Cache Files
+back-end/application/cache/*
+!back-end/application/cache/index.html
+# 關閉 Log Files
+back-end/logs/*
+!back-end/logs/index.html
+# 其他項目
+!back-end/application/*/.htaccess
+back-end/application/controllers/Test.php
