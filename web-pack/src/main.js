@@ -1,5 +1,6 @@
 // 引入元件
 import Vue from 'vue'
+import Vuex from 'vuex'
 import App from './App'
 import router from './router'
 
@@ -10,9 +11,13 @@ import VueLocalStorage from 'vue-localstorage'
 import VueSweetalert2 from 'vue-sweetalert2'
 import VueAnalytics from 'vue-analytics'
 
+// Vuex 要求
+import 'es6-promise/auto'
+
 Vue.config.productionTip = false
 
 // 設置 引用套件
+Vue.use(Vuex)
 Vue.use(VueResource)
 Vue.use(VueCookie)
 Vue.use(VueLocalStorage)
